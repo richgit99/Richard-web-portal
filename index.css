@@ -1,0 +1,735 @@
+body {
+    background-image: url('pic2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+.container {
+    width: 98%;
+    margin: 0 auto;
+    height: max-content;
+    position: relative;
+    max-width: 1000px;
+
+}
+
+.container h1 {
+    margin-top: 0.5em;
+    width: 90%;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px chartreuse;
+}
+
+
+.container p {
+    width: 50%;
+    color: white;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bold;
+    margin-left: 0.1em;
+}
+
+.container img {
+    margin-top: 1em;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.2em;
+    left: 60%;
+    shape-outside: circle(50%);
+    shape-margin: 1em;
+    margin-left: 1rem;
+    border: 2px solid whitesmoke;
+    animation: border_animation_for_myPic;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+button {
+    background-color: lightgrey;
+    max-width: 200px;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+.container .education {
+    margin-top: 2em;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid chartreuse;
+    height: max-content;
+    font-size: large;
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: rgb(37, 71, 3, 0.6);
+    animation: border_animation_for_eduaction;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+
+}
+
+/* Animation for Education qualification */
+@keyframes border_animation_for_eduaction {
+
+    0% {
+        border-top: 3px solid chartreuse;
+        border-left: 1px solid chartreuse;
+        border-bottom: 1px solid chartreuse;
+        border-right: 1px solid chartreuse;
+    }
+
+    30% {
+        border-top: 1px solid chartreuse;
+        border-left: 3px solid chartreuse;
+        border-bottom: 1px solid chartreuse;
+        border-right: 1px solid chartreuse;
+    }
+
+    50% {
+        border-top: 1px solid chartreuse;
+        border-left: 1px solid chartreuse;
+        border-bottom: 3px solid chartreuse;
+        border-right: 1px solid chartreuse;
+    }
+
+    70% {
+        border-top: 1px solid chartreuse;
+        border-left: 1px solid chartreuse;
+        border-bottom: 1px solid chartreuse;
+        border-right: 4px solid chartreuse;
+    }
+
+    90% {
+        border: 2px solid chartreuse;
+    }
+}
+
+
+/* Border Animation for my profile pic */
+@keyframes border_animation_for_myPic {
+
+    0% {
+        border-top: 3px solid white;
+        border-left: 1px solid white;
+        border-bottom: 1px solid white;
+        border-right: 1px solid white;
+    }
+
+    30% {
+        border-top: 1px solid white;
+        border-left: 3px solid white;
+        border-bottom: 1px solid white;
+        border-right: 1px solid white;
+    }
+
+    50% {
+        border-top: 1px solid white;
+        border-left: 1px solid white;
+        border-bottom: 3px solid white;
+        border-right: 1px solid white;
+    }
+
+    70% {
+        border-top: 1px solid white;
+        border-left: 1px solid white;
+        border-bottom: 1px solid white;
+        border-right: 4px solid white;
+    }
+
+    90% {
+        border: 2px solid rgb(202, 212, 191);
+    }
+}
+
+
+.container li {
+    width: 100%;
+    padding: 0.3em;
+}
+
+/* Recent Projects */
+
+.container .recent_projects {
+    margin: 0 auto;
+    margin-top: 2em;
+    width: 70%;
+    border: 2px solid rgb(122, 236, 179);
+    height: max-content;
+    font-size: large;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(119, 247, 219, 0.2);
+    animation: border_animation_for_recent_projects;
+    animation-duration: 8s;
+    overflow: hidden;
+    animation-iteration-count: infinite;
+}
+
+.container .recent_projects li a {
+    color: aqua;
+    margin-left: 0.3em;
+    text-decoration: none;
+}
+
+
+.container .recent_projects li span {
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* Border Animation for Recent Projects  */
+
+@keyframes border_animation_for_recent_projects {
+
+    0% {
+        border-top: 4px solid aqua;
+        border-left: 1px solid aqua;
+        border-bottom: 1px solid aqua;
+        border-right: 1px solid aqua;
+    }
+
+    30% {
+        border-top: 1px solid aqua;
+        border-right: 4px solid aqua;
+        border-bottom: 1px solid aqua;
+        border-left: 1px solid aqua;
+    }
+
+    50% {
+        border-top: 1px solid aqua;
+        border-left: 1px solid aqua;
+        border-bottom: 4px solid aqua;
+        border-right: 1px solid aqua;
+    }
+
+    70% {
+        border-top: 1px solid aqua;
+        border-left: 4px solid aqua;
+        border-bottom: 1px solid aqua;
+        border-right: 1px solid aqua;
+    }
+
+    90% {
+        border: 2px solid aqua;
+    }
+}
+
+
+.container li {
+    width: 100%;
+    padding: 0.3em;
+}
+
+.container .contact_me {
+    margin-top: 2em;
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid rgb(238, 56, 238);
+    height: max-content;
+    font-size: large;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(231, 128, 231, 0.2);
+    padding-left: 0.5em;
+    animation: border_animation_for_contact_me;
+    animation-duration: 4s;
+    overflow: hidden;
+    animation-iteration-count: infinite;
+}
+
+/* Border Animation for Programming knowledge section */
+
+@keyframes border_animation_for_programming_knowledge {
+
+    0% {
+        border-top: 4px solid lightgreen;
+        border-left: 1px solid lightgreen;
+        border-bottom: 1px solid lightgreen;
+        border-right: 1px solid lightgreen;
+    }
+
+    30% {
+        border-top: 1px solid lightgreen;
+        border-right: 4px solid lightgreen;
+        border-bottom: 1px solid lightgreen;
+        border-left: 1px solid lightgreen;
+    }
+
+    50% {
+        border-top: 1px solid lightgreen;
+        border-left: 1px solid lightgreen;
+        border-bottom: 4px solid lightgreen;
+        border-right: 1px solid lightgreen;
+    }
+
+    70% {
+        border-top: 1px solid lightgreen;
+        border-left: 4px solid lightgreen;
+        border-bottom: 1px solid lightgreen;
+        border-right: 1px solid lightgreen;
+    }
+
+    90% {
+        border: 2px solid lightgreen;
+    }
+}
+
+
+/* Border Animation for Contact section  */
+
+@keyframes border_animation_for_about_me {
+
+    0% {
+        border-top: 4px solid orange;
+        border-left: 1px solid orange;
+        border-bottom: 1px solid orange;
+        border-right: 1px solid orange;
+    }
+
+    30% {
+        border-top: 1px solid orange;
+        border-right: 4px solid orange;
+        border-bottom: 1px solid orange;
+        border-left: 1px solid orange;
+    }
+
+    50% {
+        border-top: 1px solid orange;
+        border-left: 1px solid orange;
+        border-bottom: 4px solid orange;
+        border-right: 1px solid orange;
+    }
+
+    70% {
+        border-top: 1px solid orange;
+        border-left: 4px solid orange;
+        border-bottom: 1px solid orange;
+        border-right: 1px solid orange;
+    }
+
+    90% {
+        border: 2px solid orange;
+    }
+
+}
+
+.container .contact_me li {
+    text-align: left;
+    color: whitesmoke;
+}
+
+
+.container .contact_me li:hover {
+    background-color: rgb(250, 145, 250);
+    color: black;
+    font-weight: bold;
+}
+
+.container .recent_projects li:hover {
+    background-color: black;
+    color: aqua;
+    font-weight: bold;
+}
+
+.container .about_me:hover {
+    background-color: rgb(90, 60, 21);
+}
+
+.container .education li:hover {
+    background-color: rgb(181, 247, 114);
+    color: black;
+    font-weight: bold;
+}
+
+/* Programming knowledge */
+
+.container .programming_knowledge {
+    margin-top: 2em;
+    width: 88%;
+    margin: 0 auto;
+    border: 2px solid rgba(30, 252, 10, 0.1);
+    height: max-content;
+    font-size: large;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(145, 238, 145, 0.3);
+    padding: 0.5em;
+    animation: border_animation_for_programming_knowledge;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/* About me */
+
+.container .about_me {
+    margin-top: 2em;
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid rgb(241, 175, 32);
+    height: max-content;
+    font-size: large;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(238, 206, 100, 0.2);
+    padding: 0.5em;
+    animation: border_animation_for_about_me;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/* Progress bar color */
+progress::-webkit-progress-value {
+    background-color: rgb(144, 238, 144, 0.8)
+}
+
+
+/* boreder animation Animation for Contact me section */
+
+@keyframes border_animation_for_contact_me {
+
+    0% {
+        border-top: 4px solid rgb(250, 116, 250);
+        border-left: 1px solid rgb(250, 116, 250);
+        border-bottom: 1px solid rgb(250, 116, 250);
+        border-right: 1px solid rgb(250, 116, 250);
+    }
+
+    30% {
+        border-top: 1px solid rgb(250, 116, 250);
+        border-right: 4px solid rgb(250, 116, 250);
+        border-bottom: 1px solid rgb(250, 116, 250);
+        border-left: 1px solid rgb(250, 116, 250);
+    }
+
+    50% {
+        border-top: 1px solid rgb(250, 116, 250);
+        border-left: 1px solid rgb(250, 116, 250);
+        border-bottom: 4px solid rgb(250, 116, 250);
+        border-right: 1px solid rgb(250, 116, 250);
+    }
+
+    70% {
+        border-top: 1px solid rgb(250, 116, 250);
+        border-left: 4px solid rgb(250, 116, 250);
+        border-bottom: 1px solid rgb(250, 116, 250);
+        border-right: 1px solid rgb(250, 116, 250);
+    }
+
+    90% {
+        border: 2px solid rgb(250, 116, 250);
+    }
+}
+
+.container .about_me p {
+    width: 90%;
+}
+
+
+/* Footer section */
+
+footer {
+    padding: 1em 0 0.8em 0;
+    width: 100%;
+    background: linear-gradient(to right, rgb(65, 105, 105), rgb(84, 109, 59), rgb(112, 92, 56));
+    height: max-content;
+    border: 2px solid linear-gradient(to right, rgb(65, 105, 105), rgb(84, 109, 59), rgb(94, 64, 94), rgb(112, 92, 56));
+    display: flex;
+    justify-content: center;
+    gap: 1.18em;
+}
+
+footer :first-child {
+    font-size: x-large;
+    color: rgb(247, 113, 136);
+}
+
+footer :nth-child(2) {
+    font-size: x-large;
+    color: blue;
+}
+
+
+
+@media (min-width:100px) and (max-width:355px) {
+    .container img {
+        width: 100px;
+        height: 100px;
+        top: 1%;
+        left: 57%;
+    }
+
+    .container :nth-child(3) {
+        width: 85%;
+        margin-top: 0.5em;
+    }
+
+}
+
+
+@media (min-width:355px) and (max-width:610px) {
+
+
+    .container {
+        margin: 0 auto;
+        position: relative;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+
+    .container img {
+        width: 125px;
+        height: 125px;
+        top: 2.9%;
+        left: 58%;
+    }
+
+    .container h1 {
+        margin-top: 0.1em;
+        margin-left: 0.5em;
+        text-align: left;
+    }
+
+
+    .container :nth-child(3) {
+        width: 60%;
+        margin-top: 0.5em;
+    }
+
+
+    .container .education {
+        width: 93%;
+        padding: 0.5em 0 0.5em 0;
+        font-size: small;
+        margin: 0 auto;
+    }
+
+    .container .education li {
+        padding: 0.5em;
+    }
+
+    /* recent projects */
+
+    .container .recent_projects {
+        width: 93%;
+        padding: 0.5em 0 0.5em 0;
+        font-size: small;
+        margin: 0 auto;
+    }
+
+    .container .recent_projects li {
+        padding: 0.5em;
+        width: 90%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    /* About me */
+
+    .container .about_me {
+        width: 90%;
+        font-size: small;
+        margin: 0 auto;
+    }
+
+    .container .about_me p {
+        width: 92%;
+        padding: 0.5em 0.3em 0.3em 0.3em;
+        font-weight: 100;
+        text-align: left;
+        margin: 0 auto;
+        font-size: small;
+    }
+
+    /* Contact me */
+    .container .contact_me {
+        width: 93%;
+        padding: 0.5em 0 0.5em 0;
+        font-size: small;
+        margin: 0 auto;
+    }
+
+    .container .contact_me li {
+        padding: 0.5em;
+    }
+}
+
+
+@media (min-width:528px) and (max-width:610px) {
+    .container img {
+        left: 58%;
+    }
+
+    .container :nth-child(3) {
+        width: 55%;
+    }
+}
+
+
+@media (min-width:610px) and (max-width:800px) {
+
+    .container img {
+        height: 160px;
+        width: 160px;
+        top: 2em;
+    }
+
+
+    .container :is(.recent_projects, .about_me, .contact_me, .education) {
+        width: 92%;
+    }
+
+
+    .container table :is(td, th) {
+        padding: 0.6em;
+    }
+
+
+    footer {
+        gap: 2em;
+    }
+
+
+}
+
+@media (min-width:800px) and (max-width:1000px) {
+
+    .container :is(.recent_projects, .about_me, .contact_me, .education) {
+        width: 90%;
+    }
+
+    .container .education {
+        margin-top: 1em;
+    }
+
+    .container table :is(td, th) {
+        padding: 0.8em;
+    }
+
+    .container .recent_projects {
+        padding-right: 1em;
+    }
+
+    .container .recent_projects li {
+        font-size: large;
+        padding: 0.6em;
+    }
+
+    footer {
+        gap: 3em;
+    }
+
+}
+
+@media (min-width:2000px) and (max-width:2500px) {
+    .container {
+        max-width: 1500px;
+    }
+
+    .container .recent_projects li {
+        padding-bottom: 1em;
+        font-size: 2em;
+    }
+
+    .container .contact_me li,
+    .container .about_me p {
+        font-size: 2em;
+    }
+
+}
+
+@media (min-width:2500px) and (max-width:4500px) {
+    .container {
+        max-width: 1700px;
+    }
+
+    .container .recent_projects li {
+        padding-bottom: 1em;
+    }
+
+    .container img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .container h1 {
+        font-size: 4em;
+    }
+
+    .container :is(.first_para, .second_para) {
+        font-size: 2.5em;
+    }
+
+    .container .contact_me li {
+        font-size: 2em;
+    }
+
+}
+
+
+@media (min-width:1000px) and (max-width:6500px) {
+
+    .container .education {
+        margin-top: 2em;
+    }
+
+    .container h1 {
+        font-size: 2.5em;
+    }
+
+
+    .container .recent_projects li,
+    .container .contact_me li {
+        padding: 0.6em;
+        font-size: 1em;
+    }
+
+    .container p:not(.container .about_me p) {
+        font-size: 2em;
+    }
+
+    button {
+        padding: 0.5em 0.3em 0.5em 0.3em;
+    }
+
+    .container :is(.recent_projects, .about_me, .contact_me, .education) {
+        width: 96%;
+        font-size: large;
+    }
+
+    .container table :is(td, th) {
+        padding: 1em;
+    }
+
+
+    .container .recent_projects li {
+        font-size: 1em;
+    }
+
+    footer {
+        height: max-content;
+        gap: 4em;
+        margin-top: 2em;
+    }
+
+}
