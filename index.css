@@ -336,25 +336,25 @@ button:hover {
 
 
 .container .contact_me li:hover {
-    background-color: rgb(250, 145, 250);
-    color: black;
+    /* background-color: rgb(250, 145, 250); */
+    /* color: black; */
     font-weight: bold;
 }
 
 .container .recent_projects li:hover {
-    background-color: black;
-    color: aqua;
+    /* background-color: black; */
+    /* color: aqua; */
     font-weight: bold;
 }
 
 .container .about_me:hover {
-    background-color: rgb(90, 60, 21);
+    /* background-color: rgb(90, 60, 21); */
 }
 
 .container .education li:hover {
-    background-color: rgb(181, 247, 114);
-    color: black;
-    font-weight: bold;
+    /* background-color: rgb(181, 247, 114);  */
+     color: black; 
+     font-weight: bold;
 }
 
 /* Programming knowledge */
@@ -609,7 +609,6 @@ footer :nth-child(2) {
         gap: 2em;
     }
 
-
 }
 
 @media (min-width:800px) and (max-width:1000px) {
@@ -694,7 +693,7 @@ footer :nth-child(2) {
     }
 
     .container h1 {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
 
@@ -705,7 +704,7 @@ footer :nth-child(2) {
     }
 
     .container p:not(.container .about_me p) {
-        font-size: 2em;
+        font-size: 1.85em;
     }
 
     button {
@@ -733,3 +732,4 @@ footer :nth-child(2) {
     }
 
 }
+
