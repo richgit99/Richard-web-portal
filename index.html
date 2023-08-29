@@ -1,4 +1,3 @@
-<!-- Author : Richard Mascarenas, Roll no : 2237 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,296 +5,400 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Work Profile</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="shortcut icon" href="final_profile_pic.png" type="image/x-icon">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script src="index.js" defer></script>
 </head>
 
-<style>
-    table {
-        width: 100%;
-        margin: 0 auto;
-        text-align: center;
-
-    }
-
-    table th {
-        border: 1px solid chartreuse;
-
-    }
-
-    table td {
-        border: 1px solid chartreuse;
-
-    }
-
-    table tr {
-        width: 95%;
-    }
-
-    tr td:hover {
-        /* background-color: rgb(161, 247, 74); */
-        /* color: black; */
-    }
-
-    tr th:hover {
-        /* background-color: rgb(161, 247, 74); */
-        /* color: black; */
-    }
-</style>
-
 <body>
+    <div class="intro_container" style="background-color: #BBBBFF;min-height: 100vh;">
+        <header>
 
-    <br>
-    <div class="container">
+            <div class="brand_name">
+                My Work Profile
+            </div>
+
+            <button id="toggle_button">
+
+                <i class="fa-solid fa-bars fa-2x" id="icon"></i>
+
+            </button>
+
+            <nav id="navbar">
+
+                <ul id="nav_items">
+                    <li id="rc_li"><a href="#"><button id="projects_button">Projects</button></a></li>
+                    <li id="e_li"><a href="#"><button id="education_button">Education</button></a></li>
+                    <li id="p_li"><a href="#"><button id="programming_button">Programming</button></a></li>
+                    <li id="am_li"><a href="#"><button id="about_me_button">About me</button></a></li>
+                    <li id="cm_li"><a href="#"><button id="contact_me_button">Contact me</button></a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <h1 style="color: rgb(50, 21, 83);">Hi, I'm Richard Mascarenhas</h1>
+        <br>
+        <div class="intro_part">
+            <div class="my_pic"><img src="final_profile_pic.png" alt=""> </div>
+
+            <div class="my_intro_info">
+                <p style="line-height: 1.5;word-spacing: 0.1em;color: rgb(57, 4, 57);"> A Student who focuses on writing
+                    efficent
+                    code. Have a lot of knowledge and experiance of
+                    HTML5, CSS3, Sass, Javascript6 , Bootstrap
+                    and an intermidiate
+                    touch of react.js</p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="scroll_top_container">
+        <h1 id="projects"
+            style="color:white;padding:0.6em 0.2em 0.3em;height: fit-content;margin: 0 auto;text-align: center;background-color: rgb(89, 5, 89, 0.7);">
+            Projects</h1>
+        <div class="card_container">
+            <!-- <div class="card">This is the first card</div> -->
+            <div class="card">
+                <h3 style="margin-top: 0;">Tic Tac Toe Game</h3>
+                <h3>A Simple game made using html, css and javascript</h3>
+
+                <a href="https://richgit99.github.io/Tic_Tac_Toe.github.io/" target="_blank"
+                    style="text-decoration: none;">
+                    <button style="display: block;padding: 0.5em;
+            height: inherit;margin: 0 auto;">Open Project</button>
+                </a>
+
+            </div>
+            <div class="card">
+                <h3 style="margin-top: 0;">Crossword Game</h3>
+                <h3>A game made using html, css and javascript</h3>
+
+                <a href="https://richgit99.github.io/Crossword.github.io/" target="_blank"
+                    style="text-decoration: none;">
+                    <button style="display: block;padding: 0.5em;
+            height: inherit;margin: 0 auto;">Open Project</button>
+                </a>
+
+            </div>
+
+            <div class="card">
+                <h3 style="margin-top: 0;">Quiz Mania</h3>
+                <h3>A Simple quiz using html, css and javascript</h3>
+
+                <a href="https://richgit99.github.io/Online_Quiz.github.io/" target="_blank"
+                    style="text-decoration: none;">
+                    <button style="display: block;padding: 0.5em;
+            height: inherit;margin: 0 auto;">Open Project</button>
+                </a>
+
+            </div>
+            <div class="card">
+                <h3 style="margin-top: 0;">Binary Puzzle</h3>
+                <h3>A Simple game made using html, css and javascript</h3>
+
+                <a href="https://richgit99.github.io/Binary_Puzzle.github.io/" target="_blank"
+                    style="text-decoration: none;">
+                    <button style="display: block;padding: 0.5em;
+            height: inherit;margin: 0 auto;">Open Project</button>
+                </a>
+
+            </div>
+            <div class="card">
+                <h3 style="margin-top: 0;">Online Calculator</h3>
+                <h3>A Simple Arithmetic calculator made using html, css and javascript</h3>
+
+                <a href="https://richgit99.github.io/Calculator.github.io/" target="_blank"
+                    style="text-decoration: none;">
+                    <button style="display: block;padding: 0.5em;
+            height: inherit;margin: 0 auto;">Open Project</button>
+                </a>
+
+            </div>
+            <div class="card">
+                <h3 style="margin-top: 0;">4x4 Sudoku</h3>
+                <h3>A 4x4 sudoku game made using html, css and javascript</h3>
+
+                <a href="https://richgit99.github.io/4x4_Sudoku.github.io/" target="_blank"
+                    style="text-decoration: none;">
+                    <button style="display: block;padding: 0.5em;
+            height: inherit;margin: 0 auto;">Open Project</button>
+                </a>
+
+            </div>
+            <div class="card">
+                <h3 style="margin-top: 0;">Memory Game</h3>
+                <h3>A simple memory game made using html, css and javascript</h3>
+
+                <a href="https://richgit99.github.io/Memory_Puzzle.github.io/" target="_blank"
+                    style="text-decoration: none;">
+                    <button style="display: block;padding: 0.5em;
+            height: inherit;margin: 0 auto;">Open Project</button>
+                </a>
+
+            </div>
+            <div class="card">
+                <h3 style="margin-top: 0;">Religious Blog Website</h3>
+                <h3>A blog made using html, css and javascript</h3>
+
+                <a href="https://richgit99.github.io/St_Anthony_Blog_Website.github.io/" target="_blank"
+                    style="text-decoration: none;">
+                    <button style="display: block;padding: 0.5em;
+            height: inherit;margin: 0 auto;">Open Project</button>
+                </a>
+
+            </div>
+            <!-- <div class="card">this is a card</div> -->
+        </div>
+
         <!-- <br> -->
+        <h1 id="programming_languages" style="height: fit-content;text-align: center;
+    margin: 0 auto;background-color: #FFBDF7;;padding: 0.5em 0;">Language Knowledge</h1>
+        <div class="programming_languages">
+            <br>
 
-        <h1 style="padding-left:0.3em ;">Hi, I'm Richard Mascarenhas</h1>
-
-        <p style="padding-left: 1em;" class="first_para">A Student who focuses on writing clean , elegant and efficent
-            code.</p>
-
-        <p style="padding-left: 1em;" id="dusro_para" class="second_para">Have a lot of knowledge and experiance of
-            HTML5, CSS3, Javascript6
-            and
-            slight touch of Bootstrap</p>
-
-
-        <img src="final_profile_pic.png" alt="my profile photo">
-        <br>
-
-        <button class="button" style="color: black;font-weight: bold;width: 30%;padding: 0.3em;margin: 0 auto;
-display: flex;justify-content: center;font-size: large;border-radius: 20px;border: 1px solid grey;">Hire Me</button>
-
-        <!-- Education qualications -->
-
-        <br><br>
-
-        <div class="education">
-            <div style="color: aliceblue;padding:0.5em 0 0.5em 0;font-weight: bold;border-bottom: 1px solid chartreuse;
-            text-align: center;" class="education_border">Education Qualification</div>
-
-
-            <table>
-
-                <tr style="background-color: rgb(225, 253, 197);color: black;width: auto;">
-                    <th>Level</th>
-                    <th>Class</th>
-                    <th style="width: 20%;">Percentage</th>
-                    <th>Year</th>
-                </tr>
-
-                <tr>
-                    <td>MCA</td>
-                    <td>Still Studing</td>
-                    <td style="width: 20%;">--</td>
-                    <td>2022-2024</td>
-                </tr>
-
-                <tr>
-                    <th>Bsc in Mathematics</th>
-                    <th>First Class</th>
-                    <th style="width: 20%;">70%</th>
-                    <th>2019 - 2022</th>
-                </tr>
-
-                <tr>
-                    <th>12 Std</th>
-                    <th>First Class</th>
-                    <th style="width: 20%;">70%</th>
-                    <th>2017 - 2019</th>
-                </tr>
-
-                <tr>
-                    <th>10 Std</th>
-                    <th>Distinction Class</th>
-                    <th style="width: 20%;">80%</th>
-                    <th>2016 - 2017</th>
-                </tr>
-
-
-            </table>
+            <div class="language_with_level">
+                <h3 style="margin-right: 3.2em;">HTML</h3>
+                <div class="level">
+                    <div class="language" style="width: 98%;"></div>
+                </div>
+            </div>
+            <div class="language_with_level">
+                <h3 style="margin-right: 4.3em;">CSS</h3>
+                <div class="level">
+                    <div class="language" style="width: 94%;"></div>
+                </div>
+            </div>
+            <div class="language_with_level">
+                <h3>JAVASCRIPT</h3>
+                <div class="level">
+                    <div class="language" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="language_with_level">
+                <h3 style="margin-right: 5.4em;">C</h3>
+                <div class="level">
+                    <div class="language" style="width: 50%;"></div>
+                </div>
+            </div>
+            <div class="language_with_level">
+                <h3 style="margin-right: 1.95em;">PYTHON</h3>
+                <div class="level">
+                    <div class="language" style="width: 74%;"></div>
+                </div>
+            </div>
+            <div class="language_with_level">
+                <h3 style="margin-right: 2.5em;">MYSQL</h3>
+                <div class="level">
+                    <div class="language" style="width: 47%;"></div>
+                </div>
+            </div>
+            <div class="language_with_level">
+                <h3 style="margin-right: 3.9em;">JAVA</h3>
+                <div class="level">
+                    <div class="language" style="width: 57%;"></div>
+                </div>
+            </div>
 
         </div>
 
-        <!-- Recent Projects -->
-
-        <br><br>
-
-        <div class="recent_projects">
-            <div style="color: white;padding:0.5em 0 0.5em 0;font-weight: bold;border-bottom: 1px solid rgba(119, 247, 219, 0.7);
-    text-align: center;">Recent Projects</div>
-
-            <li><span>Tic Tac Toe game: </span> An online multiplayer game made up of html,css and javascript
-                <a href="https://pwrvjfxvfnkpfsejv5hwtq.on.drv.tw/Tic_Tac_Toe/" target="_blank">(view
-                    project)</a>
-            </li>
-            <li><span>Binary Puzzle Game: </span> A online puzzle made up of html,css and javascript which is similar to
-                the suduko
-                game
-                but having a differnt set of rules.
-                <a href="https://pwrvjfxvfnkpfsejv5hwtq.on.drv.tw/Binary_Puzzle/" target="_blank">(view project)</a>
-            </li>
-            <li><span>Online Quiz: </span> An online quiz based on Mathematics and programming with different formats of
-                answering it.
-                <a href="https://pwrvjfxvfnkpfsejv5hwtq.on.drv.tw/OnlineQuiz1.com/Online%20Quiz/About%20us.html"
-                    target="_blank">(view project)</a>
-            </li>
-            <li><span>Online Calculator: </span> An online calculator made of html, css and javascript
-                which provies all arthimetic operations. <a
-                    href="https://pwrvjfxvfnkpfsejv5hwtq.on.drv.tw/Online%20Calculator/" target="_blank">(view
-                    project)</a></li>
-            <li><span>Crossword: </span> An online crossword made from html,css and javascript<a
-                    href="https://pwrvjfxvfnkpfsejv5hwtq.on.drv.tw/crossword/" target="_blank">(view
-                    project)</a></li>
-            <li><span>Mini-Sudoku: </span> A 4x4 online sudoku made from html,css and javascript <a
-                    href="https://pwrvjfxvfnkpfsejv5hwtq.on.drv.tw/mini-sudoku/" target="_blank">(view
-                    project)</a></li>
-            <li><span>St Anthony Website: </span> An website show casing the life of St.Anthony having different themes.
-                <a href="https://q77zm1idegi9jocjdeuuqg.on.drv.tw/St.%20Anthony%2013%20Miracles/St%20Anthony%20Project/"
-                    target="_blank"> (view project)</a>
-            </li>
-
-            <li><span>St Sebastian Website: </span> A blog related website based on the story of St. Sebastian made from
-                html,
-                bootstrap and javascript <a href="https://pwrvjfxvfnkpfsejv5hwtq.on.drv.tw/St.%20Sebastian%20Website./"
-                    target="_blank">(view
-                    project)</a></li>
-
-            <li><span>Student Management System</span> An System used for managing the students data more efficently
-                using C language.
-                <a href="https://github.com/richgit99/Student-management-system.git" target="_blank"> (view project)</a>
-            </li>
-        </div>
-        <br>
-
-        <!-- Programming Knowledge -->
-
-        <br><br>
-
-        <div class="programming_knowledge">
-            <div style="color: white;padding:0.5em 0 0.5em 0;font-weight: bold;border-bottom: 2px solid lightgreen;
-            text-align: center;">Programming Knowledge</div>
-
-            <div style="display: flex;width: 100%;padding:0.5em 0 0.5em 0;">
-
-                <span style="display: flex;flex-direction: column;gap: 2em;align-items: flex-end;width: 30%;
-            right: 0;">
-
-                    <label for="" style="text-align: center;width: 100%;font-weight: bold;">C</label>
-                    <label for="" style="text-align: center;width: 100%;font-weight: bold;">Java</label>
-                    <label for="" style="text-align: center;width: 100%;font-weight: bold;">Python</label>
-                    <label for="" style="text-align: center;width: 100%;font-weight: bold;">Html</label>
-                    <label for="" style="text-align: center;width: 100%;font-weight: bold;">CSS</label>
-                    <label for="" style="text-align: center;width: 100%;font-weight: bold;">javascript</label>
-                    <label for="" style="text-align: center;width: 100%;font-weight: bold;">Php</label>
-
-
-                </span>
-
-
-                <span style="display: flex;flex-direction: column;gap: 1em;align-items: flex-end;width: 70%;
-            right: 0;">
-
-                    <progress value="46" max="100"
-                        style="height: 2em;width: 100%;color: aqua;background-color: red;"></progress>
-                    <progress value="40" max="100"
-                        style="height: 2em;width: 100%;color: aqua;background-color: red;"></progress>
-                    <progress value="70" max="100"
-                        style="height: 2em;width: 100%;color: aqua;background-color: red;"></progress>
-                    <progress value="99" max="100"
-                        style="height: 2em;width: 100%;color: aqua;background-color: red;"></progress>
-                    <progress value="97" max="100"
-                        style="height: 2em;width: 100%;color: aqua;background-color: red;"></progress>
-                    <progress value="90" max="100"
-                        style="height: 2em;width: 100%;color: aqua;background-color: red;"></progress>
-                    <progress value="15" max="100"
-                        style="height: 2em;width: 100%;color: aqua;background-color: red;"></progress>
-
-                </span>
+        <button style="color:white;background-color: rgb(12, 138, 64);position: fixed;bottom: 20px;
+right: 20px;z-index:2;padding:0.7em 1em;border-radius: 2px;cursor:pointer;display:none;" id="scroll_top_button"
+            class="scroll_top_button"><i class="fa-solid fa-arrow-right fa-2x fa-rotate-270"></i></button>
+        <h1 style="height: fit-content;text-align: center;margin:0 auto;
+    background-color: #D4ADFC;
+padding: 1em 0;" id="education">Education Qualifications</h1>
+        <div class="education_container">
+            <div class="standard">
+                <h3>2016 - 2017</h3>
+                <h2>High School Degree </h2>
+                <p>
+                    <span>School :</span>
+                    Fr. Agnel Multipurpose High School, Verna-Goa.
+                </p>
+                <h4>
+                    Percentage : 80%
+                </h4>
+            </div>
+            <div class="standard">
+                <h3>2017 - 2019</h3>
+                <h2>Higher Secondary School Degree </h2>
+                <p>
+                    <span>Stream : </span>
+                    Science
+                </p>
+                <p>
+                    <span>School :</span>
+                    Fr. Agnel Multipurpose High School, Verna-Goa.
+                </p>
+                <h4>
+                    Percentage : 70%
+                </h4>
+            </div>
+            <div class="standard">
+                <h3>2019 - 2022</h3>
+                <h2>Graduation Degree</h2>
+                <p>
+                    <span>Course :</span>
+                    Bachelor of Scince in Mathematics
+                </p>
+                <p>
+                    <span>College :</span>
+                    Parvatibai Chowgule College of Arts and Sciences
+                </p>
+                <h4>
+                    Percentage : 70%
+                </h4>
+            </div>
+            <div class="standard">
+                <h3>2022 - 2024</h3>
+                <h2>Masters Degree </h2>
+                <p>
+                    <span>Course :</span>
+                    Masters of Computer Applications
+                </p>
+                <p>
+                    <span>College :</span>
+                    Goa University
+                </p>
+                <h4>
+                    Percentage : Still Studying
+                </h4>
             </div>
         </div>
 
+        <!-- Contact Form -->
 
-
-
-        <!-- About me -->
-
-        <br><br>
 
         <div class="about_me">
-            <div style="color: white;padding:0.5em 0 0.5em 0;font-weight: bold;border-bottom: 1px solid rgb(248, 194, 112);
-text-align: center;">About Me</div>
+            <br>
+            <h1 id="about_me">About me</h1>
 
-            <p>Hello there! I am Richard Mascarenhas, a Master of Computer Applications (MCA) student at Goa University.
-                With a passion for technology and a drive to
-                continuously learn and grow, I am eager to take on new challenges and make an impact in the tech
-                industry.
-                <br><br>
-                Through my studies, I have developed a strong foundation in computer programming,
-                and software engineering, with a particular interest in Front End Web Development.
-                I have worked on several projects, both individually and in teams, that have allowed me
-                to apply my skills in real-world scenarios and to develop my ability to think critically and creatively.
-                <br><br>
 
-                Besides academics, I enjoy playing cricket, carrom , solving cubes, mathematical problems and watching
-                scientic movies.
-                .If you're looking for a driven and enthusiastic MCA student,
-                look no further! I am eager to put my skills and knowledge to work for you.
+            <div class="aboutInfo_and_pic">
 
-            </p>
+                <div class="image_slider sliding_animation" id="image_slider">
 
+
+                </div>
+
+                <p class="sliding_animation">
+
+                    Hello there! I am Richard Mascarenhas, a Master of Computer Applications (MCA) student at Goa
+                    University.
+                    With a passion for technology and a drive to
+                    continuously learn and grow, I am eager to take on new challenges and make an impact in the tech
+                    industry.
+                    <span>
+                        Through my studies, I have developed a strong foundation in computer programming with a
+                        particular
+                        interest in Front End Web Development.
+                        I have worked on several projects, both individually and in teams, that have allowed me
+                        to apply my skills in real-world scenarios and to develop my ability to think critically and
+                        creatively.
+                    </span>
+                </p>
+
+            </div>
+
+            <!-- <br> -->
+
+            <h2 style="text-align: center;width: 100%;color: aqua;font-size: 1.7rem;">Other Skills</h2>
+
+            <div class="other_skills">
+                <div class="other_software_skills">
+                    <span>Figma</span>
+                    <div class="outer_circle other_software_skills" id="outer_circle_1">
+                        83%
+
+                    </div>
+                </div>
+
+                <div class="other_software_skills">
+                    <span>Canva</span>
+                    <div class="outer_circle other_software_skills" id="outer_circle_2">
+                        64%
+
+                    </div>
+                </div>
+
+                <div class="other_software_skills">
+                    <span>Coreldraw</span>
+                    <div class="outer_circle other_software_skills" id="outer_circle_3">
+                        70%
+
+                    </div>
+                </div>
+
+
+            </div>
 
         </div>
-        <br>
 
-        <!-- Contact me -->
-        <br><br>
-
+        <h1 id="contact_me"
+            style="padding:0.8em 0 0.5em 0;background-color: #DFCCFB;color: purple;height: fit-content;text-align: center;margin: 0 auto;">
+            Contact Me</h1>
         <div class="contact_me">
-            <div style="color: white;padding:0.5em 0 0.5em 0;font-weight: bold;border-bottom: 1px solid rgb(238, 56, 238);
-text-align: center;">Contact Me</div>
 
-            <li>Name: Richard Mascarenhas</li>
+            <div class="my_contact_info">
 
-            <li>Email: mca.2237@unigoa.ac.in</li>
+                <div class="details">
+                    <h3>Email Address &nbsp; <span><i class="fa-solid fa-envelope"></i></span></h3>
+                    <p>mca.2237@unigoa.ac.in</p>
+                </div>
+                <div class="details">
+                    <h3>Phone &nbsp; <span><i class="fa-solid fa-phone"></i></span></h3>
+                    <p>9112821688</p>
+                </div>
+                <div class="details">
+                    <h3>Address &nbsp; <span><i class="fa-solid fa-house"></i></span></h3>
+                    <p>H.no 97, Nuvem Murda Grande, Salcete - Goa</p>
+                </div>
+                <div class="details">
+                    <h3>Location </h3>
+                    <p><a href="https://maps.app.goo.gl/X9Zdjgw3gFZGSYj66" target="_blank"> <i
+                                class="fa-solid fa-location-dot"></i></a></p>
+                </div>
 
-            <li>Phone: 9112821688</li>
+            </div>
 
-            <li style="list-style-type: none;width: 90%;margin: 0 auto;">Feel free to reach out to me for any queries or
-                opportunities related to my field of study.
-                I would be more than happy to connect and discuss potential collaborations.</li>
+
+            <form class="contact_me_table details">
+                <h2 style="color: #FFF3DA;">Send message</h2>
+                <input type="text" minlength="6" style="margin-top: 0;" name="" id="user_name"
+                    placeholder="Enter Full Name" required>
+
+                <input type="email" name="" id="user_email" placeholder="Enter Email" required>
+
+                <input type="text" name="" id="email_subject" placeholder="Enter Subject" required>
+
+                <textarea name="" required style="resize: none;" id="email_message" cols="30" rows="10"
+                    placeholder="Your Message"></textarea>
+
+                <button id="submit_button">Send</button>
+
+            </form>
 
         </div>
-        <br>
-
-        <!-- end of contact me-->
-
     </div>
-
-
-    <br><br>
-
     <footer>
-        <a href="https://www.instagram.com/rich_spider_99/" target="_blank"> <i class="fa-brands fa-instagram"
-                style="font-size: 2em;"> </i></a>
-
-        <a href="https://www.facebook.com/richard.mascarenhas.37201/" target="_blank"> <i class="fa-brands fa-facebook"
-                style="font-size: 2em;color: rgb(92, 188, 252);"> </i></a>
-
-
-        <a href="mailto:mca.2237@unigoa.ac.in" target="_blank"> <i class="fa-sharp fa-solid fa-envelope-circle-check"
-                style="font-size: 2.8em;color:rgba(138, 4, 138, 0.795)"> </i></a>
-
-        <a href="https://github.com/richgit99" target="_blank"> <i class="fa-brands fa-github"
-                style="font-size: 3em;color: black"> </i></a>
-
-        <a href="https://wa.me/919112821688" target="_blank"> <i class="fa-brands fa-whatsapp"
-                style="font-size: 3em;color: rgb(21, 194, 21);"> </i></a>
-
+        <ul>
+            <div> <a href="https://github.com/richgit99" target="_blank"><i class="fa-brands fa-github"></i></a> </div>
+            <div> <a href="https://wa.me/919112821688" target="_blank"><i class="fa-brands fa-whatsapp"></i></a> </div>
+            <div> <a href="https://www.instagram.com/__richi_boy__/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a> </div>
+            <div> <a href="https://www.facebook.com/richard.mascarenhas.37201/" target="_blank"><i
+                        class="fa-brands fa-facebook"></i></a> </div>
+            <div> <a href="https://www.twitter.com/RICHARDBoika/" target="_blank"><i
+                        class="fa-brands fa-twitter"></i></a> </div>
+        </ul>
     </footer>
+
 
 </body>
 
